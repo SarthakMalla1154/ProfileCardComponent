@@ -1,0 +1,35 @@
+
+body{
+    background-color: $body-bg-color-main;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-bg{
+    position: absolute;
+    top: -67%;
+    left: -206%;
+    z-index: 1;
+}
+
+#btm-bg{
+    position: absolute;
+    bottom: -68%;
+    right: -205%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 800px) {
+    #top-bg{
+        position: absolute;
+        top: -55%;
+        left: -20%;
+    }
+    #btm-bg{
+        position: absolute;
+        bottom: -70%;
+        right: -15%;
+    }
+}
